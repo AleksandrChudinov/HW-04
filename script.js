@@ -1,7 +1,7 @@
 const btnLoadImages = document.getElementById("load-images-button");
 const gallery = document.getElementById("gallery");
 const loader = document.getElementById("loader");
-const URL = "https://api.thecatapi.com/v/images/search?limit=10";
+const URL = "https://api.thecatapi.com/v1/images/search?limit=10";
 
 async function getUrlsArray() {
   try {
